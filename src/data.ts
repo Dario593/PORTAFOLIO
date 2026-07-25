@@ -61,7 +61,7 @@ export const projectsList: Project[] = [
     title: 'YouTube Music & Video Downloader',
     description: 'Plataforma web rápida y moderna para buscar, convertir y descargar música de alta calidad desde YouTube.',
     extendedDescription: 'Un software web de alto rendimiento diseñado con conversión asíncrona de formatos de audio y video. Cuenta con una interfaz fluida, previsualización en tiempo real de miniaturas, selección de tasas de bits de audio (hasta 320kbps) y descarga integrada sin ventanas emergentes molestas.',
-    image: 'https://github.com/Dario593/PORTAFOLIO/blob/main/src/assets/images/LOGO_M.png',
+    image: 'https://github.com/Dario593/PORTAFOLIO/blob/main/src/assets/images/logo_m.jpg',
     techStack: ['React', 'TypeScript', 'Node.js', 'Tailwind CSS', 'API Integration'],
     githubUrl: 'https://github.com/dcatagua/yt-music-downloader',
     demoUrl: 'https://youtube.com',
