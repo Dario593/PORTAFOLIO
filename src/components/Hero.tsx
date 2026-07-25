@@ -177,7 +177,7 @@ export default function Hero() {
               {/* Solid frame container */}
               <div className="relative w-full h-full rounded-3xl overflow-hidden border-2 border-white dark:border-navy-800 shadow-2xl bg-gradient-to-b from-navy-100 to-white dark:from-navy-900 dark:to-navy-950">
                 <img
-                  src="/src/assets/images/profile_photo_final_1784000968205.jpg"
+                  src="/src/assets/images/DARIO-FORMAL-GPT.png"
                   alt={personalInfo.name}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   referrerPolicy="no-referrer"
