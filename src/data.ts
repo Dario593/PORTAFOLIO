@@ -1,4 +1,7 @@
 import { Project, Skill, Testimonial, Stat } from './types';
+import logoM from './assets/images/logo_m.jpg';
+import logoMar from './assets/images/LOGO_MAR.png';
+import logoInv from './assets/images/LOGO_INV.png';
 
 export const personalInfo = {
   name: 'Dario Javier Catagua Zambrano',
@@ -14,7 +17,7 @@ export const personalInfo = {
     whatsapp: 'https://wa.me/593981084536?text=Hola%20Dario,%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20conversar%20sobre%20un%20proyecto.',
     youtube: 'https://youtube.com/@dariocatagua',
   },
-  cvUrl: '#' // CV modal or mock download
+  cvUrl: '#'
 };
 
 export const statsList: Stat[] = [
@@ -61,7 +64,7 @@ export const projectsList: Project[] = [
     title: 'YouTube Music & Video Downloader',
     description: 'Plataforma web rápida y moderna para buscar, convertir y descargar música de alta calidad desde YouTube.',
     extendedDescription: 'Un software web de alto rendimiento diseñado con conversión asíncrona de formatos de audio y video. Cuenta con una interfaz fluida, previsualización en tiempo real de miniaturas, selección de tasas de bits de audio (hasta 320kbps) y descarga integrada sin ventanas emergentes molestas.',
-    image: 'https://github.com/Dario593/PORTAFOLIO/blob/main/src/assets/images/logo_m.jpg',
+    image: logoM,
     techStack: ['React', 'TypeScript', 'Node.js', 'Tailwind CSS', 'API Integration'],
     githubUrl: 'https://github.com/dcatagua/yt-music-downloader',
     demoUrl: 'https://youtube.com',
@@ -73,7 +76,7 @@ export const projectsList: Project[] = [
     title: 'Panadería & Pastelería Marykakes',
     description: 'E-commerce interactivo para una pastelería local con catálogo de productos y pedidos automatizados por WhatsApp.',
     extendedDescription: 'Solución web a medida para una panadería tradicional en Manabí. Permite a los clientes explorar un catálogo dinámico y tentador de pasteles, personalizar coberturas y sabores mediante un cotizador interactivo, y enviar las especificaciones de su pedido directamente al número de WhatsApp de la tienda.',
-    image: 'https://github.com/Dario593/PORTAFOLIO/blob/main/src/assets/images/LOGO_MAR.png',
+    image: logoMar,
     techStack: ['React', 'Tailwind CSS', 'Wix API', 'WhatsApp Business Link'],
     githubUrl: 'https://github.com/dcatagua/marykakes-pasteleria',
     demoUrl: 'https://facebook.com',
@@ -85,7 +88,7 @@ export const projectsList: Project[] = [
     title: 'Sistema de Inventario & Facturación Manabí',
     description: 'Aplicación administrativa empresarial con soporte para facturación electrónica y control de existencias en tiempo real.',
     extendedDescription: 'Un sistema robusto enfocado en PYMES locales de Ecuador. Incorpora módulos avanzados de control de existencias, cálculo de márgenes de ganancias, registro automatizado de clientes y proveedores, alertas automáticas de stock mínimo y una interfaz intuitiva para agilizar el punto de venta.',
-    image: 'https://github.com/Dario593/PORTAFOLIO/blob/main/src/assets/images/LOGO_INV.png',
+    image: logoInv,
     techStack: ['Python', 'Java', 'SQLite', 'Tailwind CSS', 'Desktop App'],
     githubUrl: 'https://github.com/dcatagua/sistema-inventario-pymes',
     demoUrl: '#',

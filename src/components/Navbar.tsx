@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Sun, Moon, Sparkles } from 'lucide-react';
-import { personalInfo } from '../data';
+import { Menu, X, Sun, Moon } from 'lucide-react';
+import logoWeb from '../assets/images/LOGO_WEB.png';
 
 interface NavbarProps {
   darkMode: boolean;
@@ -84,8 +84,8 @@ export default function Navbar({ darkMode, toggleDarkMode }: NavbarProps) {
             }}
             className="flex items-center space-x-2 text-navy-800 dark:text-white"
           >
-            <div className="w-10 h-10 rounded-xl bg-mint-400 flex items-center justify-center shadow-lg shadow-mint-400/20">
-              <img className="w-5 h-5 text-navy-800" src="/src/assets/images/LOGO_WEB.png" />
+            <div className="w-10 h-10 rounded-xl bg-mint-400 flex items-center justify-center shadow-lg shadow-mint-400/20 p-1.5">
+              <img className="w-full h-full object-contain" src={logoWeb} alt="Dario Catagua Logo" />
             </div>
             <div className="flex flex-col">
               <span className="font-display font-bold text-lg leading-tight tracking-tight">
